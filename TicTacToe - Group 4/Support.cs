@@ -28,7 +28,7 @@ public class Support
         foreach (var line in winLines)
         {
             char firstChar = gameBoard[line[0]];
-            if (firstChar != ' ' && firstChar == gameBoard[line[1]] && firstChar == gameBoard[line[2]])
+            if (firstChar != '-' && firstChar == gameBoard[line[1]] && firstChar == gameBoard[line[2]])
             {
                 if (firstChar == 'X') // if player 1 wins(x), then update postion 1 
                 {
